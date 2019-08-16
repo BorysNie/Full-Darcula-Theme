@@ -19,6 +19,11 @@
 * Add languages:
   * Java
   * TypeScript
+  * C++
+  * C#
+  * Bash
+  * VB.Net
+  * VBS
 
 ## How to Debug
 Press CTRL+SHIFT+P and type `Developer: Inspect TM Scopes`
