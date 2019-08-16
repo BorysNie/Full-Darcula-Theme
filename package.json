@@ -1,0 +1,23 @@
+{
+    "name": "full-darcula-theme",
+    "displayName": "Full Darcula Theme",
+    "publisher": "EdOverride",
+    "repository": "https://github.com/EdOverride/Full-Darcula-Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Full Darcula Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Full Darcula Theme-color-theme.json"
+            }
+        ]
+    }
+}

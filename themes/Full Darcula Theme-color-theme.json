@@ -1,0 +1,274 @@
+﻿{
+  "name": "Full Darcula Theme",
+  "type": "dark",
+  "colors": {},
+  "tokenColors": [
+    {
+      "scope": [
+        "meta.function.method.with-arguments.ruby",
+        "constant.language.directive.module.http",
+        "constant.language.directive.module.main",
+        "constant.language.module.http.fastcgi",
+        "support.type.property-name.json",
+        "variable.legacy.builtin.python",
+        "entity.name.type.class.ruby",
+        "variable.other.property.php",
+        "variable.other.readwrite.js",
+        "variable.language.this.js",
+        "variable.other.block.ruby",
+        "support.constant.std.php",
+        "variable.other.object.js",
+        "variable.parameter.js",
+        "variable.other.php",
+        "constant.other.php"
+      ],
+      "settings": {
+        "foreground": "#9876AA"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.constant.ruby",
+      ],
+      "settings": {
+        "foreground": "#9876AA",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.single.python",
+        "string.quoted.double.json",
+        "string.quoted.single.ruby",
+        "string.quoted.single.scss",
+        "string.quoted.single.yaml",
+        "string.quoted.single.html",
+        "string.quoted.other.ruby",
+        "string.quoted.single.css",
+        "string.quoted.single.php",
+        "string.quoted.single.xml",
+        "string.quoted.single.js"
+      ],
+      "settings": {
+        "foreground": "#6A8759"
+      }
+    },
+    {
+      "scope": [
+        "constant.language.symbol.hashkey.ruby",
+        "constant.language.symbol.ruby",
+        "meta.object-literal.key.js"
+      ],
+      "settings": {
+        "foreground": "#6E9CBE"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.array.begin.json.comments",
+        "punctuation.definition.array.end.json.comments",
+        "punctuation.definition.dictionary.begin.json",
+        "punctuation.definition.sequence.begin.yaml",
+        "punctuation.definition.dictionary.end.json",
+        "punctuation.definition.mapping.begin.yaml",
+        "punctuation.separator.array.json.comments",
+        "punctuation.definition.sequence.end.yaml",
+        "punctuation.definition.dict.begin.python",
+        "punctuation.definition.mapping.end.yaml",
+        "punctuation.definition.dict.end.python",
+        "meta.structure.dictionary.value.json",
+        "punctuation.separator.sequence.yaml",
+        "keyword.operator.assignment.python",
+        "punctuation.separator.colon.python",
+        "keyword.operator.comparison.python",
+        "punctuation.separator.dict.python",
+        "keyword.operator.comparison.ruby",
+        "punctuation.separator.key-value",
+        "keyword.operator.relational.js",
+        "keyword.operator.comparison.js",
+        "keyword.operator.logical.js",
+        "constant.character.brace",
+        "constant.character.end",
+        "source.yaml"
+      ],
+      "settings": {
+        "foreground": "#fff"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.assignment.augmented.ruby",
+        "punctuation.separator.inheritance.ruby",
+        "punctuation.section.embedded.begin.php",
+        "constant.language.module.http.rewrite",
+        "support.function.construct.output.php",
+        "punctuation.section.embedded.end.php",
+        "punctuation.separator.variable.ruby",
+        "keyword.control.pseudo-method.ruby",
+        "entity.other.attribute-name.id.css",
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js",
+        "keyword.control.start-block.ruby",
+        "keyword.operator.logical.python",
+        "support.function.construct.php",
+        "keyword.control.conditional.js",
+        "constant.language.boolean.ruby",
+        "constant.language.undefined.js",
+        "keyword.operator.logical.php",
+        "keyword.control.foreach.php",
+        "variable.language.self.ruby",
+        "keyword.control.flow.python",
+        "constant.language.nil.ruby",
+        "keyword.control.endfor.php",
+        "keyword.control.class.ruby",
+        "constant.language.null.js",
+        "keyword.control.endif.php",
+        "storage.type.function.js",
+        "keyword.control.def.ruby",
+        "keyword.control.else.php",
+        "keyword.control.flow.js",
+        "keyword.control.die.php",
+        "keyword.operator.new.js",
+        "keyword.control.if.php",
+        "constant.language.json",
+        "constant.language.php",
+        "entity.name.tag.haml",
+        "keyword.control.ruby",
+        "entity.name.tag.yaml",
+        "entity.name.tag.css",
+        "support.class.php",
+        "storage.type.js"
+      ],
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
+    {
+      "scope": [
+        "keyword.other.special-method.ruby",
+        "keyword.control.import.python",
+        "entity.name.type.js",
+        "support.class.ruby"
+      ],
+      "settings": {
+        "foreground": "#DA4939"
+      }
+    },
+    {
+      "scope": [
+        "meta.structure.array.json.comments",
+        "comment.line.number-sign.python",
+        "comment.line.number-sign.ruby",
+        "comment.line.double-slash.php",
+        "comment.block.html",
+        "comment.block.css",
+        "comment.block.php",
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.parameters.begin.js",
+        "punctuation.definition.parameters.end.js",
+        "punctuation.terminator.statement.js",
+        "punctuation.section.scope.end.ruby",
+        "punctuation.definition.block.js",
+        "keyword.operator.assignment.js",
+        "string.unquoted.plain.out.yaml",
+        "variable.other.property.js",
+        "punctuation.accessor.js",
+        "meta.brace.square.js",
+        "meta.brace.round.js",
+        "source.python",
+        "source.nginx",
+        "source.ruby",
+        "source.php",
+        "text.haml"
+      ],
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "entity.other.attribute-name.class.css",
+        "support.function.basic_functions.php",
+        "punctuation.definition.tag.end.html",
+        "meta.function-call.generic.python",
+        "support.function.builtin.python",
+        "support.constant.font-name.css",
+        "punctuation.definition.tag.xml",
+        "entity.name.tag.localname.xml",
+        "support.variable.property.js",
+        "support.function.console.js",
+        "entity.name.tag.class.haml",
+        "support.function.misc.css",
+        "entity.name.function.ruby",
+        "support.function.info.php",
+        "entity.name.function.php",
+        "entity.name.tag.id.haml",
+        "entity.name.function.js",
+        "entity.name.tag.html",
+        "support.function.js"
+      ],
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.interpolated.ruby",
+        "string.quoted.double.html",
+        "string.quoted.double.scss",
+        "string.quoted.double.yaml",
+        "string.quoted.double.css",
+        "string.quoted.double.php",
+        "string.quoted.double.xml",
+        "string.quoted.double.js"
+      ],
+      "settings": {
+        "foreground": "#4B7B3D"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite.instance.ruby",
+        "variable.other.readwrite.class.ruby"
+      ],
+      "settings": {
+        "foreground": "#D0D0FF"
+      }
+    },
+    {
+      "scope": [
+        "support.constant.property-value.css",
+        "keyword.other.unit.percentage.css",
+        "constant.numeric.integer.yaml",
+        "constant.numeric.decimal.js",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.em.css",
+        "constant.numeric.json",
+        "constant.numeric.ruby",
+        "constant.numeric.css",
+        "constant.numeric.css",
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#A5C261"
+      }
+    },
+    {
+      "scope": [
+        "string.regexp"
+      ],
+      "settings": {
+        "foreground": "#4F9FB1"
+      }
+    }
+  ]
+}
