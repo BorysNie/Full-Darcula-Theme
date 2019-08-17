@@ -4,14 +4,29 @@
     "publisher": "EdOverride",
     "repository": "https://github.com/EdOverride/Full-Darcula-Theme",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.37.0"
     },
     "categories": [
         "Themes"
     ],
+    "main": "extension.js",
+    "activationEvents": [
+        "onCommand:full-darcula-theme-activate-bg",
+        "onCommand:full-darcula-theme-deactivate-bg"
+    ],
     "contributes": {
+        "commands": [
+            {
+                "command": "full-darcula-theme-activate-bg",
+                "title": "Full Darcula Theme: Activate Background Image"
+            },
+            {
+                "command": "full-darcula-theme-deactivate-bg",
+                "title": "Full Darcula Theme: Deactivate Background Image"
+            }
+        ],
         "themes": [
             {
                 "label": "Full Darcula Theme",
