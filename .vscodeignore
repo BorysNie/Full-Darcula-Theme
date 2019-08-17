@@ -1,0 +1,5 @@
+﻿.vscode
+.history
+*.vsix
+README.md
+.gitignore
