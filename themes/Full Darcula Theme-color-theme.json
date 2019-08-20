@@ -154,6 +154,7 @@
         "keyword.control.foreach.php",
         "variable.language.self.ruby",
         "keyword.control.flow.python",
+        "keyword.control.module.ruby",
         "constant.language.nil.ruby",
         "keyword.control.endfor.php",
         "keyword.control.class.ruby",
