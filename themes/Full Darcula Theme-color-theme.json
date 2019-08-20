@@ -52,7 +52,8 @@
         "variable.other.object.js",
         "variable.parameter.js",
         "variable.other.php",
-        "constant.other.php"
+        "constant.other.php",
+        "meta.module.ruby"
       ],
       "settings": {
         "foreground": "#9876AA"
@@ -183,6 +184,7 @@
     },
     {
       "scope": [
+        "entity.other.inherited-class.module.first.ruby",
         "keyword.other.special-method.ruby",
         "keyword.control.import.python",
         "entity.name.type.js",
