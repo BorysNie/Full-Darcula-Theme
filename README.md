@@ -43,6 +43,11 @@ and execute commands:
 
 # ⚠️ **Warning**: If you have enabled background image, you must disable it, before uninstalling extension, or it will stay active.
 
+If you enable the background, u might see warning saying that VScode is corrupted.
+That is cos, to enable the background image, i had to edit the main vs code css.
+Don't worry, its fully reversible with command `Full Darcula Theme: Deactivate Background Image`. But, if you want to remove that warning, you can install
+extension `Fix VSCode Checksums` and run command `Fix Checksums: Apply`. That
+will get rid of the warning.
 
 ## TODO's:
 * Add languages:
