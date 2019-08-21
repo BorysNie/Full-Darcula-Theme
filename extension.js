@@ -8,7 +8,7 @@ const css_path    = path.join(install_dir, 'vs', 'workbench', css_name);
 const ext_path    = vscode.extensions.getExtension('EdOverride.full-darcula-theme').extensionPath;
 const image_path  = path.join(ext_path, 'themes', 'bg1.jpg').replace(/\\+/g, '/')
 const css_regex   = new RegExp(/(\/\*full-darcula-theme-start\*\/.+\/\*full-darcula-theme-end\*\/)/g);
-const css         = `/*full-darcula-theme-start*/body{background-repeat:repeat;background-image:url('${image_path}');opacity:0.72;background-size: 550px;}/*full-darcula-theme-end*/`
+const css         = `/*full-darcula-theme-start*/body{background-repeat:repeat;background-image:url('${image_path}');opacity:0.86;background-size: 550px;}/*full-darcula-theme-end*/`
 
 function activate(context) {
 
